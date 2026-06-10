@@ -17,9 +17,6 @@
   },
   "license": "MIT",
   "main": "lib/xbee-api",
-   "browser": {
-    "stream": "stream-browserify"
-  },
   "engines": {
     "node": ">=4.0.0"
   },
@@ -38,7 +35,6 @@
   "dependencies": {
     "buffer-builder": "^0.2.0",
     "buffer-reader": "https://github.com/prodatakey/node-buffer-reader/archive/v0.0.3.tar.gz",
-    "safe-buffer": "~5.0.1",
-    "stream-browserify": "^3.0.0"
+    "safe-buffer": "~5.0.1"
   }
 }

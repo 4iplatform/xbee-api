@@ -1,7 +1,7 @@
 {
   "name": "xbee-api",
   "description": "Node.js and Chrome communicate with XBee/ZigBee devices in API mode",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "homepage": "https://github.com/jankolkmeier/xbee-api",
   "author": {
     "name": "Jan Kolkmeier",
@@ -17,6 +17,9 @@
   },
   "license": "MIT",
   "main": "lib/xbee-api",
+   "browser": {
+    "stream": "stream-browserify"
+  },
   "engines": {
     "node": ">=4.0.0"
   },
@@ -35,6 +38,7 @@
   "dependencies": {
     "buffer-builder": "^0.2.0",
     "buffer-reader": "https://github.com/prodatakey/node-buffer-reader/archive/v0.0.3.tar.gz",
-    "safe-buffer": "~5.0.1"
+    "safe-buffer": "~5.0.1",
+    "stream-browserify": "^3.0.0"
   }
 }
